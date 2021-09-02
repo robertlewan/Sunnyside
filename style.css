@@ -9,10 +9,24 @@
     background-color: #3DBEFF;
     width: 100%;
     padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .brand {
-    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links {
+
+    display: flex;
+}
+
+.navbar-link u {
+    list-style-type: none;
+    margin: 3rem;
 }
 
 .toggle-button {
@@ -24,6 +38,7 @@
     display: flex;
     align-items: center;
     float: right;
+
 }
 
 .toggle-button .bar {
@@ -31,9 +46,10 @@
     width: 100%;
     background-color: white;
     border-radius: 20%;
+    display: none;
 }
 
-.navbar-link ul {
+/* .navbar-link ul {
     text-decoration: none;
     list-style-type: none;
     color: #84838D;
@@ -42,25 +58,27 @@
     padding: 2rem 0 1rem 0;
     position: relative;
     top: 1rem;
-}
+    display: flex;
+    flex-direction: column;
+} */
 
-.navbar-link ul li {
+/* .navbar-link ul li {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 #contact {
     background-color: hsl(51, 100%, 49%);
     color: black;
-    width: 35%;
+    width: 25%;
     height: 2rem;
-    margin: 0.75rem auto;
+    margin: 0.25rem auto;
     display: flex;
-    border-radius: 25%;
+    border-radius: 50%;
 }
 
 #contact p {
     align-self: center;
     margin: auto;
-}
+} */

@@ -11,8 +11,8 @@
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
@@ -24,31 +24,36 @@
       color: hsl(228, 45%, 44%);
     }
   </style>
-  <script src="./script.js"></script>
+  <script src="./script.js" defer></script>
 </head>
 
 <body>
   <nav class='nav-container'>
-      <div class="brand"><img src="./images/logo.svg" alt=""></div>
-        <a href="#" class="toggle-button" id='toggle'>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-link" id='hidden-navbar'>
-          <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <li><div id='contact'><p><b>CONTACT</b></p></div></li>
-          </ul>
+    <div class="brand"><img src="./images/logo.svg" alt=""></div>
+
+
+    <ul class="navbar-links" id='hidden-navbar'>
+      <li>About</li>
+      <li>Services</li>
+      <li>Projects</li>
+      <li>
+        <div id='contact'>
+          <p><b>CONTACT</b></p>
         </div>
-    </nav>
-  
-  
- 
- 
- 
+      </li>
+      <li><a href="javascript:void(0)" class="toggle-button" id='toggle'>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a></li>
+    </ul>
+
+  </nav>
+
+
+
+
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
