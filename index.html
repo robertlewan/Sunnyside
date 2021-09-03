@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <title>Sunnyside Agency</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,23 +30,24 @@
 <body>
   <nav class='nav-container'>
     <div class="brand"><img src="./images/logo.svg" alt=""></div>
-
-
-    <ul class="navbar-links" id='hidden-navbar'>
-      <li>About</li>
-      <li>Services</li>
-      <li>Projects</li>
-      <li>
-        <div id='contact'>
+    <a href="#" class="toggle-button"  id="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    
+    <div class="navbar-links">
+      <ul class="nav-menu" id='hidden-navbar'>
+      <li><a href="#" class="navbar-item">About</a></li>
+      <li><a href="#" class="navbar-item">Services</a></li>
+      <li><a href="#" class="navbar-item">Projects</a></li>
+      <li></li>
+        <a href="#" id='contact' class="navbar-item">
           <p><b>CONTACT</b></p>
-        </div>
+        </a>
       </li>
-      <li><a href="javascript:void(0)" class="toggle-button" id='toggle'>
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a></li>
     </ul>
+    </div>
 
   </nav>
 
